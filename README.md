@@ -7,4 +7,5 @@ BST implementation for the learning purpose:
 
 2. Implementation of all search functionality like inorder search, preorder search and postorder search
 
-3. Method to find minimum and maximum with O(log n) complexity 
+3. Method to find minimum and maximum with O(log n) complexity
+4. Method to delete element from tree
