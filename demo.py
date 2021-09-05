@@ -15,8 +15,6 @@ obj1 = make_tree(l)
 obj2 = make_tree(ls)
 
 print(obj1.in_order_traversal())
-print(obj1.min())
-print(obj1.max())
 print(obj1.pre_order_traversal())
 print(obj1.post_order_traversal())
 
@@ -25,3 +23,6 @@ print(obj2.min())
 print(obj2.max())
 print(obj2.pre_order_traversal())
 print(obj2.post_order_traversal())
+
+obj1.delete(5)
+print(obj1.in_order_traversal())
